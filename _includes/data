@@ -1,12 +1,1 @@
-<button class="btn btn-default wfixed" data-toggle="modal" data-target="#myModal">{{d.video_id}}</button>
-		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		  <div class="modal-dialog" role="document">
-			<div class="modal-content">
-			  <div class="modal-body">
-				<div class="embed-responsive embed-responsive-16by9">
-<video class="embed-responsive-item" poster="{{d.preview_url}}" controls="controls"><source src="{{d.video_url}}" type="video/mp4"></video>
-				</div>
-			  </div>
-			</div><!--./modal-content-->
-		  </div>
-		</div><!--./modal-->
+{"id":"{{d.video_id}}","url":"{{d.video_url}}","img":"{{d.preview_url}}"},
