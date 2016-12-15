@@ -1,0 +1,1 @@
+<div class="embed-responsive embed-responsive-16by9"><video class="embed-responsive-item" poster="{{page.thumb}}" controls="controls"><source src="{{include.src}}" type="video/mp4"></video></div>
