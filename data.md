@@ -5,7 +5,7 @@ permalink: /data.html
 ---
 <div class="text-center">
 {"test":[
-{% for d in site.data.1k %}
+{% for d in site.data.test %}
   {% include data %}
 {% endfor %}
 ]}
