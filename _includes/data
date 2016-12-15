@@ -1,1 +1,1 @@
-<a href="{{d.video_url}}" class="btn btn-default"><img src="{{d.preview_url}}" class="wfixed" alt="{{d.video_id}}"/></a>
+<a href="{{d.video_url}}" class="btn btn-default wfixed"><img src="{{d.video_id}}" class="img-responsive" alt="{{d.video_id}}"/></a>
