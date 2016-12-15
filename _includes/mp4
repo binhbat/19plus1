@@ -1,0 +1,8 @@
+<script src="//content.jwplatform.com/libraries/V6NfEzT7.js"></script>
+<div id="myPlayer">&nbsp;</div>
+<script>
+jwplayer('myPlayer').setup({aspectratio:"16:9",width:"100%",
+image:"{{page.thumb}}",
+file:"http://www.finevids.xxx/videos/{{include.key}}"
+});
+</script>

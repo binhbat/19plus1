@@ -1,0 +1,7 @@
+name: "SieuTV"
+subline: "fun for free"
+baseurl: "http://adv.sieutv.net/19plus1"
+asseturl: "http://sieutv.net/assets"
+permalink: /:categories/:title/
+paginate: 60
+paginate_path: "/page:num"
