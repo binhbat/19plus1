@@ -1,0 +1,5 @@
+<script src="//content.jwplatform.com/libraries/V6NfEzT7.js"></script>
+<div id="myPlayer">&nbsp;</div>
+<script>
+jwplayer('myPlayer').setup({image:"{{page.thumb}}",file:"{{include.src}}",aspectratio:"16:9",width:"100%"});
+</script>
