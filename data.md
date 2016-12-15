@@ -4,8 +4,8 @@ title: read data
 permalink: /data.html
 ---
 <div class="text-center">
-{"0k":[
-{% for d in site.data.0k %}
+{"test":[
+{% for d in site.data.1k %}
   {% include data %}
 {% endfor %}
 ]}
